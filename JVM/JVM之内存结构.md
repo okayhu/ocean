@@ -1,3 +1,13 @@
+- [概述](#概述)
+- [堆（Heap）](#堆heap)
+- [方法区（Method Area）](#方法区method-area)
+- [程序计数器（The pc Register）](#程序计数器the-pc-register)
+- [虚拟机栈（Java Virtual Machine Stacks）](#虚拟机栈java-virtual-machine-stacks)
+  - [局部变量表（Local Variables Table）](#局部变量表local-variables-table)
+  - [操作数栈（Operand Stacks）](#操作数栈operand-stacks)
+  - [动态链接 （Dynamic Linking）](#动态链接-dynamic-linking)
+  - [方法出口 （Method Invocation Completion）](#方法出口-method-invocation-completion)
+
 ## 概述
 
 Java Virtual Machine（JVM）是一种抽象的计算机，基于堆栈架构，它有自己的指令集和内存管理。它加载 class 文件、分析、解释并执行字节码。基本结构如下：
