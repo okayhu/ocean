@@ -23,18 +23,23 @@
 **软引用**：如果一个对象只具有软引用，则内存空间足够，垃圾回收器不会回收它，如果内存不足，则在发生内存溢出之前被回收。
 
 ```java
-// 软引用
 SoftReference<String> softRef = new SoftReference<String>(str); 
 ```
 
 **弱引用**：具有弱引用的对象拥有更短暂的生命周期。在垃圾回收器进行垃圾回收时，一旦发现了只具有弱引用的对象，不管当前内存空间足够与否，都会回收它的内存。
 
 ```java
-// 弱引用
-WeakReference<String> abcWeakRef = new WeakReference<String>(str);
+WeakReference<String> weakRef = new WeakReference<String>(str);
 ```
 
-**虚引用**：如果一个对象仅持有虚引用，那么它就和没有任何引用一样，在任何时候都可能被垃圾回收器回收。虚引用主要用来跟踪对象被垃圾回收器回收的活动。
+**虚引用**：如果一个对象仅持有虚引用，那么它就和没有任何引用一样，在任何时候都可能被垃圾回收器回收。
+
+虚引用主要用来跟踪对象被垃圾回收器回收的活动。虚引用必须和引用队列（ReferenceQueue）联合使用。当垃圾回收器准备回收一个对象时，如果发现它还有虚引用，就会在回收对象的内存之前，把这个虚引用加入到与之关联的引用队列中。
+
+```java
+ReferenceQueue queue = new ReferenceQueue();
+PhantomReference phantomRef = new PhantomReference(str, queue);
+```
 
 ## 如何判断一个对象是垃圾（可回收）
 
