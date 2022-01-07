@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "textlint": "textlint",
+    "textlint-fix": "textlint --fix"
+  },
+  "dependencies": {
+    "textlint": "^12.1.0",
+    "textlint-rule-ja-space-between-half-and-full-width": "^2.2.0",
+    "textlint-rule-no-dead-link": "^4.8.0"
+  }
+}
