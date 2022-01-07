@@ -162,4 +162,4 @@ Parallel Old 也是一种多线程的串行回收器，和 Parallel Scavenge 一
 
 **CMS、G1 垃圾回收器**
 
-[JVM 之详解 CMS 和 G1 垃圾回收器](JVM 之详解 CMS 和 G1 垃圾回收器.md)
+[JVM 之详解 CMS 和 G1 垃圾回收器](./JVM之详解%20CMS%20和%20G1%20垃圾回收器.md)
