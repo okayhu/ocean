@@ -10,4 +10,4 @@
 
 [JVM之垃圾回收](./src/jvm/JVM之垃圾回收.md)
 
-[JVM 之详解 CMS 和 G1 垃圾回收器](./src/jvm/JVM之详解%20CMS%20和%20G1%20垃圾回收器.md)
+[JVM之详解 CMS 和 G1 垃圾回收器](./src/jvm/JVM之详解%20CMS%20和%20G1%20垃圾回收器.md)
