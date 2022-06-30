@@ -40,7 +40,7 @@ OK
 
 SET 和 GET 命令是我们设置和检索字符串值的方式。请注意，SET 将替换已存储在键中的任何现有值。值可以是各种字符串（包括二进制数据），例如可以在值中存储 jpeg 图像。**值不能大于 512 MB**。
 
-### [SET](https://redis.io/commands/set) 命令
+### [SET](https://redis.io/commands/set/) 命令
 
 > 自 1.0.0 起可用。时间复杂度 O(1)
 

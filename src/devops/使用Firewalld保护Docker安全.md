@@ -1,5 +1,3 @@
-## 原因
-
 Docker 防火墙使用的是底层的 iptables，firewalld 默认不生效。
 
 如果想要使用 firewalld，需要做以下调整：

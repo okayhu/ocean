@@ -1,8 +1,7 @@
 {
   "scripts": {
-    "test": "textlint",
-    "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
+    "test": "textlint .",
+    "fix": "textlint --fix ."
   },
   "dependencies": {
     "textlint": "^12.1.0",

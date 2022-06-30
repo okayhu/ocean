@@ -5,10 +5,7 @@
       "space": "always"
     },
     "no-dead-link": {
-      "ignore": [
-        "./JVM之详解%20CMS%20和%20G1%20垃圾回收器.md",
-        "./src/jvm/JVM之详解%20CMS%20和%20G1%20垃圾回收器.md"
-      ]
+      "checkRelative": false
     }
   }
 }

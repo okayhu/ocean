@@ -16,7 +16,7 @@ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 vi etc/ssh/sshd_config
 ```
 
-修改 `#Port 22` 为 `Port 2233` ，则 ssh 端口分改为 2233
+修改`#Port 22` 为 `Port 2233` ，则 ssh 端口分改为 2233
 
 重启 sshd 服务
 
